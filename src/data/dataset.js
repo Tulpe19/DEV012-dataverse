@@ -1,378 +1,362 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "homero-simpson",
+    "name": "Homero Simpson",
+    "shortDescription": "Padre torpe y amante de la cerveza.",
+    "description": "Homer Simpson es el patriarca de la familia Simpson. Trabaja en la planta de energía nuclear de Springfield como supervisor de seguridad, aunque su torpeza es legendaria. Su amor por la cerveza Duff es conocido por todos.",
+    "imageUrl": "https://ejemplo.com/homer.jpg",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+      "Comida favorita": "Rosquillas",
+      "Ocupación": "Supervisor de seguridad en la planta nuclear",
+      "Frase celebre": "¡Mmm... cerveza!"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "sourceUrl": "https://en.wikipedia.org/wiki/Homer_Simpson"
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "bart-simpson",
+    "name": "Bart Simpson",
+    "shortDescription": "Hijo travieso y bromista.",
+    "description": "Bart Simpson es el hijo mayor de la familia Simpson. Es conocido por sus bromas y travesuras en la escuela y en la ciudad de Springfield. Siempre lleva consigo su patineta.",
+    "imageUrl": "https://ejemplo.com/bart.jpg",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+      "Comida favorita": "Rosquillas",
+      "Ocupación": "Estudiante",
+      "Frase celebre": "¡Ay, caramba!"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bart_Simpson"
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id": "marge-simpson",
+    "name": "Marge Simpson",
+    "shortDescription": "Madre cariñosa y ama de casa.",
+    "description": "Marge Simpson es la madre de la familia Simpson. Es una ama de casa dedicada y cariñosa. Su distintiva torre de cabello azul la hace fácilmente reconocible. Marge es conocida por su paciencia y su amor por la familia.",
+    "imageUrl": "https://ejemplo.com/marge.jpg",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+      "Comida favorita": "Panqueques",
+      "Ocupación": "Ama de casa",
+      "Frase celebre": "¡Homero!"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "sourceUrl": "https://en.wikipedia.org/wiki/Marge_Simpson"
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "lisa-simpson",
+    "name": "Lisa Simpson",
+    "shortDescription": "Hija inteligente y activista.",
+    "description": "Lisa Simpson es la hija mediana de la familia Simpson. Es conocida por su inteligencia y su pasión por la justicia social y el medio ambiente. Toca el saxofón y es una estudiante ejemplar.",
+    "imageUrl": "https://ejemplo.com/lisa.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+      "Comida favorita": "Comida vegetariana",
+      "Ocupación": "Estudiante",
+      "Frase celebre": "¡No al maltrato animal!"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lisa_Simpson"
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "ned-flanders",
+    "name": "Ned Flanders",
+    "shortDescription": "Vecino amable y religioso.",
+    "description": "Ned Flanders es el vecino de los Simpson. Es extremadamente amable, religioso y optimista. Suele decir frases como \"¡Hola, vecino!\" y es propietario de la tienda \"La casita de los churros\".",
+    "imageUrl": "https://ejemplo.com/ned.jpg",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+      "Comida favorita": "Churros",
+      "Ocupación": "Dueño de la tienda \"La casita de los churros\"",
+      "Frase celebre": "¡Hola, vecino!"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ned_Flanders"
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id": "apu-nahasapeemapetilon",
+    "name": "Apu Nahasapeemapetilon",
+    "shortDescription": "Dueño de la tienda Kwik-E-Mart.",
+    "description": "Apu Nahasapeemapetilon es el dueño de la tienda Kwik-E-Mart en Springfield. Es conocido por su acento indio y su trabajo incansable.",
+    "imageUrl": "https://ejemplo.com/apu.jpg",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+      "Comida favorita": "Curry",
+      "Ocupación": "Dueño de Kwik-E-Mart",
+      "Frase celebre": "¡Gracias, vuelva pronto!"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "sourceUrl": "https://en.wikipedia.org/wiki/Apu_Nahasapeemapetilon"
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "id": "barney-gumble",
+    "name": "Barney Gumble",
+    "shortDescription": "Amigo de Homer y amante de la cerveza.",
+    "description": "Barney Gumble es el mejor amigo de Homer Simpson y un amante empedernido de la cerveza. A pesar de su adicción al alcohol, ocasionalmente muestra destellos de genialidad.",
+    "imageUrl": "https://ejemplo.com/barney.jpg",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+      "Comida favorita": "Cerveza",
+      "Ocupación": "Desempleado",
+      "Frase celebre": "¡Homer, eres el mejor amigo que he tenido!"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "sourceUrl": "https://en.wikipedia.org/wiki/Barney_Gumble"
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "id": "moe-szyslak",
+    "name": "Moe Szyslak",
+    "shortDescription": "Dueño de la taberna de Moe.",
+    "description": "Moe Szyslak es el dueño de la taberna de Moe en Springfield. Es conocido por su mal genio, su fealdad y su vida amorosa desafortunada. A pesar de todo, Moe es un amigo leal y un barman hábil.",
+    "imageUrl": "URL de la imagen de Moe",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+      "Comida favorita": "Cerveza Duff",
+      "Ocupación": "Dueño de la taberna de Moe",
+      "Frase celebre": "¡Duff, por favor!"
     },
     "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+      "sourceUrl": "URL de la fuente de la imagen de Moe"
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "id": "lenny-leonard",
+    "name": "Lenny Leonard",
+    "shortDescription": "Amigo de Homer y trabajador de la planta nuclear.",
+    "description": "Lenny Leonard es uno de los amigos de Homer Simpson y trabaja junto a él en la planta de energía nuclear de Springfield. Es conocido por su personalidad tranquila y su sentido del humor.",
+    "imageUrl": "URL de la imagen de Lenny",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+      "Comida favorita": "Rosquillas",
+      "Ocupación": "Trabajador en la planta nuclear",
+      "Frase celebre": "No me preguntes a mí, soy solo el tipo que pone la tiza en el pizarrón."
     },
     "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+      "sourceUrl": "URL de la fuente de la imagen de Lenny"
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "id": "montgomery-burns",
+    "name": "Montgomery Burns",
+    "shortDescription": "Dueño de la planta nuclear y villano.",
+    "description": "Montgomery Burns, conocido como Mr. Burns, es el codicioso dueño de la planta nuclear de Springfield. Es famoso por su maldad y su desprecio por el bienestar de los demás habitantes de la ciudad.",
+    "imageUrl": "URL de la imagen de Mr. Burns",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "Comida favorita": "Sopa de tortuga",
+      "Ocupación": "Dueño de la planta nuclear",
+      "Frase celebre": "¡Excelente!"
     },
     "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+      "sourceUrl": "URL de la fuente de la imagen de Mr. Burns"
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id": "seymour-skinner",
+    "name": "Seymour Skinner",
+    "shortDescription": "Director de la Escuela Primaria de Springfield.",
+    "description": "Seymour Skinner es el director de la Escuela Primaria de Springfield. Es conocido por su rigidez y su devoción por mantener la disciplina en la escuela, aunque a veces se muestra vulnerable.",
+    "imageUrl": "URL de la imagen de Skinner",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "Comida favorita": "Ración militar",
+      "Ocupación": "Director de la Escuela Primaria de Springfield",
+      "Frase celebre": "¡Están ustedes expulsados!"
     },
     "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+      "sourceUrl": "URL de la fuente de la imagen de Skinner"
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": "groundskeeper-willie",
+    "name": "Groundskeeper Willie",
+    "shortDescription": "Encargado de mantenimiento de la escuela.",
+    "description": "Groundskeeper Willie es el encargado de mantenimiento de la Escuela Primaria de Springfield. Es escocés y tiene un fuerte acento. Willie es rudo pero leal.",
+    "imageUrl": "URL de la imagen de Willie",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "Comida favorita": "Haggis",
+      "Ocupación": "Encargado de mantenimiento de la escuela",
+      "Frase celebre": "¡Ach, malditos críos!"
     },
     "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+      "sourceUrl": "URL de la fuente de la imagen de Willie"
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "id": "krusty-el-payaso",
+    "name": "Krusty el Payaso",
+    "shortDescription": "Presentador de televisión y empresario.",
+    "description": "Krusty el Payaso es un famoso presentador de televisión y empresario en Springfield. A pesar de su éxito, es un personaje atormentado por sus problemas personales.",
+    "imageUrl": "URL de la imagen de Krusty",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "Comida favorita": "Comida basura",
+      "Ocupación": "Presentador de televisión y empresario",
+      "Frase celebre": "¡Hey, niños!"
     },
     "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+      "sourceUrl": "URL de la fuente de la imagen de Krusty"
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "id": "milhouse-van-houten",
+    "name": "Milhouse Van Houten",
+    "shortDescription": "Mejor amigo de Bart y compañero de aventuras.",
+    "description": "Milhouse Van Houten es el mejor amigo de Bart Simpson y compañero de aventuras. Siempre lleva lentes y es conocido por su personalidad tímida y su amor por Lisa Simpson. A menudo se mete en problemas debido a su lealtad a Bart.",
+    "imageUrl": "URL de la imagen de Milhouse",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "Comida favorita": "Manzanas",
+      "Ocupación": "Estudiante",
+      "Frase celebre": "¡Todo está en orden!"
     },
     "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+      "sourceUrl": "URL de la fuente de la imagen de Milhouse"
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "id": "ralph-wiggum",
+    "name": "Ralph Wiggum",
+    "shortDescription": "Niño inocente y torpe.",
+    "description": "Ralph Wiggum es un niño inocente y extremadamente torpe en la Escuela Primaria de Springfield. Sus respuestas y acciones a menudo son desconcertantes y cómicas.",
+    "imageUrl": "URL de la imagen de Ralph",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+      "Comida favorita": "Pegamento",
+      "Ocupación": "Estudiante",
+      "Frase celebre": "¡Mi gato tiene pulgas!"
     },
     "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "sourceUrl": "URL de la fuente de la imagen de Ralph"
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "id": "martin-prince",
+    "name": "Martin Prince",
+    "shortDescription": "Niño superdotado y compañero de clase de Bart.",
+    "description": "Martin Prince es un niño superdotado y compañero de clase de Bart Simpson en la Escuela Primaria de Springfield. Es conocido por su intelecto y personalidad peculiar.",
+    "imageUrl": "URL de la imagen de Martin",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+      "Comida favorita": "Brócoli",
+      "Ocupación": "Estudiante",
+      "Frase celebre": "¡Oh, dilema!"
     },
     "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+      "sourceUrl": "URL de la fuente de la imagen de Martin"
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "id": "principal-skinner",
+    "name": "Principal Skinner",
+    "shortDescription": "Director de la Escuela Primaria de Springfield.",
+    "description": "El director Seymour Skinner es el director de la Escuela Primaria de Springfield. Es conocido por su rigidez y su devoción por mantener la disciplina en la escuela.",
+    "imageUrl": "URL de la imagen de Skinner",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+      "Comida favorita": "Albóndigas",
+      "Ocupación": "Director de la Escuela Primaria de Springfield",
+      "Frase celebre": "¡Silencio en el pasillo!"
     },
     "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+      "sourceUrl": "URL de la fuente de la imagen de Skinner"
+    }
+  },  
+  {
+    "id": "luann-van-houten",
+    "name": "Luann Van Houten",
+    "shortDescription": "Madre de Milhouse y exesposa de Kirk.",
+    "description": "Luann Van Houten es la madre de Milhouse Van Houten y la exesposa de Kirk Van Houten. Aparece ocasionalmente en la serie y se le conoce por su personalidad alegre.",
+    "imageUrl": "URL de la imagen de Luann",
+    "facts": {
+      "Comida favorita": "Helado",
+      "Ocupación": "No especificada",
+      "Frase celebre": "¡Vamos, Milhouse, disfruta tu vida!"
+    },
+    "extraInfo": {
+      "sourceUrl": "URL de la fuente de la imagen de Luann"
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "id": "nelson-muntz",
+    "name": "Nelson Muntz",
+    "shortDescription": "Matón de la escuela y conocido por su risa.",
+    "description": "Nelson Muntz es un matón en la Escuela Primaria de Springfield y es conocido por su risa burlona. Aunque a menudo se comporta de manera intimidante, a veces muestra un lado más humano.",
+    "imageUrl": "URL de la imagen de Nelson",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+      "Comida favorita": "Sandwich de mantequilla de cacahuate",
+      "Ocupación": "Estudiante",
+      "Frase celebre": "¡Ja, ja!"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+      "sourceUrl": "URL de la fuente de la imagen de Nelson"
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "id": "sideshow-bob",
+    "name": "Sideshow Bob",
+    "shortDescription": "Antiguo ayudante de Krusty convertido en villano.",
+    "description": "Sideshow Bob, cuyo nombre real es Robert Terwilliger, es un antiguo ayudante de Krusty el Payaso que se convierte en un villano obsesionado con Bart Simpson y la venganza.",
+    "imageUrl": "URL de la imagen de Sideshow Bob",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+      "Comida favorita": "Venganza",
+      "Ocupación": "Criminal",
+      "Frase celebre": "¡Bart, pagarás por esto!"
     },
     "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+      "sourceUrl": "URL de la fuente de la imagen de Sideshow Bob"
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "id": "patty-bouvier",
+    "name": "Patty Bouvier",
+    "shortDescription": "Hermana gemela de Selma y empleada de la DMV.",
+    "description": "Patty Bouvier es la hermana gemela de Selma Bouvier y trabaja como empleada en la DMV de Springfield. Ambas hermanas comparten un profundo desprecio por Homer Simpson.",
+    "imageUrl": "URL de la imagen de Patty",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+      "Comida favorita": "Cigarrillos mentolados",
+      "Ocupación": "Empleada de la DMV",
+      "Frase celebre": "¡Homer es un idiota!"
     },
     "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+      "sourceUrl": "URL de la fuente de la imagen de Patty"
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "id": "selma-bouvier",
+    "name": "Selma Bouvier",
+    "shortDescription": "Hermana gemela de Patty y empleada de la DMV.",
+    "description": "Selma Bouvier es la hermana gemela de Patty Bouvier y también trabaja como empleada en la DMV de Springfield. Al igual que su hermana, tiene una opinión muy negativa de Homer Simpson.",
+    "imageUrl": "URL de la imagen de Selma",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+      "Comida favorita": "Cigarrillos mentolados",
+      "Ocupación": "Empleada de la DMV",
+      "Frase celebre": "¡Homero es un idiota!"
     },
     "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+      "sourceUrl": "URL de la fuente de la imagen de Selma"
     }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "id": "maude-flanders",
+    "name": "Maude Flanders",
+    "shortDescription": "Esposa de Ned Flanders y madre de Rod y Todd.",
+    "description": "Maude Flanders es la difunta esposa de Ned Flanders y la madre de Rod y Todd. Era conocida por su bondad y su devoción religiosa antes de su trágica muerte en un estadio deportivo.",
+    "imageUrl": "URL de la imagen de Maude",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+      "Comida favorita": "Vegetales",
+      "Ocupación": "Ama de casa",
+      "Frase celebre": "No especificada"
     },
     "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+      "sourceUrl": "URL de la fuente de la imagen de Maude"
     }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
+    "id": "lionel-hutz",
+    "name": "Lionel Hutz",
+    "shortDescription": "Abogado incompetente y excéntrico.",
+    "description": "Lionel Hutz es un abogado extremadamente incompetente y excéntrico en Springfield. A menudo se involucra en casos legales ridículos y siempre está en busca de clientes desesperados.",
+    "imageUrl": "URL de la imagen de Lionel Hutz",
     "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+      "Comida favorita": "Comida rápida",
+      "Ocupación": "Abogado",
+      "Frase celebre": "¡Sí, estoy seguro de que ganaremos!"
     },
     "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
-  },
-  {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.esa.int/ESA_Multimedia/Images/2020/07/Artistic_illustration_of_Rosalind_Franklin"
+      "sourceUrl": "URL de la fuente de la imagen de Lionel Hutz"
     }
   }
 ];
