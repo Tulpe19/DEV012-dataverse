@@ -11,34 +11,31 @@
       <img src="wellcome.png" alt="">
       <h1>¡Bienvenidos!</h1>
       <div>
-        <label for="sort-order">Ordena por personaje:</label>
-        <select data-testid="sort-order"  name="personajes">
-          <option value="asc">A - Z</option>
-          <option value="desc">Z - A</option>
-          </select> 
-
-          <label for="sort-order">Ordena por personaje:</label>
-        <select data-testid="sort-order"  name="personajes">
-          <option value="asc">A - Z</option>
-          <option value="desc">Z - A</option>
-          </select> 
-
-          <label for="radio-asc" data-testid="label-asc">
-          <input type="radio"  name="sort-order" value="asc" data-testid="radio-asc">&#9206</label>
-
-          <label for="radio-desc" data-testid="label-desc">
-          <input type="radio" name="sort-order" value="desc" data-testid="radio-desc">&#x23F7</label>
-
-        <select data-testid="select-sort"  name="">
-          <option value="asc">Hombre</option>
-          <option value="asc">Mujer</option>
+        <label for="personajes">Busca por personaje:</label>
+        <select data-testid="select-filter"  name="personajes">
+          <option value="asc">Homero Simpson</option>
+          <option value="desc">Bart Simpson</option>
+          <option value="desc">Marge Simpson</option>
         </select> 
-      <button data-testid="button-clear">Limpiar</button>
+
+        <label for="grupo-familiar">Busca por familia:</label>
+        <select data-testid="select-filter"  name="grupo-familiar">
+          <option value="asc">Simpsons</option>
+          <option value="desc">Flanders</option>
+          <option value="desc">Van Houten</option>
+        </select> 
+
+        <label for="hechos">Busca por hechos:</label>
+        <select data-testid="select-filter"  name="hechos">
+          <option value="asc">Comida favorita</option>
+          <option value="desc">Ocupación</option>
+          <option value="desc">Frase célebre</option>
+        </select>  
+        <button data-testid="button-clear">Limpiar</button>
       </div>
     </header>
     <main id="root">
       <h2>Habitantes de Springfield</h2>
-      <ul></ul>
     </main>
     <script src="main.js" type="module"></script>
   </body>
