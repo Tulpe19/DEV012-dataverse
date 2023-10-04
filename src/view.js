@@ -11,7 +11,10 @@ export const renderItems = (data) => {
       <dt>Nombre:</dt><dd itemprop="name">${item.name}</dd>
       <dd itemprop="imgeUrl">${item.imageUrl}</dd>
       <dt>Descripción corta:</dt><dd itemprop="shortDescription">${item.shortDescription}</dd>
-      <dt>Hechos:</dt><dd itemprop="facts">${item.facts}</dd>
+      <dt>Hechos:</dt><dd itemprop="facts">
+      <dt>Comida favorita:</dt><dd itemprop="comidaFavorita">${item.facts['Comida favorita']}</dd>
+      <dt>Ocupación:</dt><dd itemprop="ocupacion">${item.facts['Ocupación']}</dd>
+      <dt>Frase célebre:</dt><dd itemprop="frase">${item.facts['Frase celebre']}</dd>
     </dl>
     `;
 

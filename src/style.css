@@ -30,3 +30,12 @@ body div {
 .root {
   display: flex;
 }
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  background-color:darkcyan;
+  width: 21rem;
+}
