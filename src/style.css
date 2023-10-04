@@ -1,5 +1,32 @@
-@import url( ' https://fonts.cdnfonts.com/css/homer-simpson-revised ' ) ;
-
 html{
-    font-family: 'homer-simpson-revised', sans-serif;
+  font-family: 'homer-simpson-revised', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(nubesSimpsons.jpg);
+}
+
+body h1, h2 {
+  -webkit-text-stroke: 1px #000000; /*propiedad para darle un grosor y color determinado al font*/ 
+  color: #FFDE00;
+}
+
+header {
+  display: block; 
+  background-size: cover;
+  background-position: left bottom;
+  /*position: fixed;
+  top:0;
+  width: 100%;*/
+}
+
+body div {
+  background-color:darkcyan;
+  padding: 5px;
+}
+
+.root {
+  display: flex;
 }

@@ -4,7 +4,7 @@ export default [
     "name": "Homero Simpson",
     "shortDescription": "Padre torpe y amante de la cerveza.",
     "description": "Homer Simpson es el patriarca de la familia Simpson. Trabaja en la planta de energía nuclear de Springfield como supervisor de seguridad, aunque su torpeza es legendaria. Su amor por la cerveza Duff es conocido por todos.",
-    "imageUrl": "https://ejemplo.com/homer.jpg",
+    "imageUrl": "",
     "facts": {
       "Comida favorita": "Rosquillas",
       "Ocupación": "Supervisor de seguridad en la planta nuclear",
