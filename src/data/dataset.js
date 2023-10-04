@@ -4,7 +4,7 @@ export default [
     "name": "Homero Simpson",
     "shortDescription": "Padre torpe y amante de la cerveza.",
     "description": "Homer Simpson es el patriarca de la familia Simpson. Trabaja en la planta de energía nuclear de Springfield como supervisor de seguridad, aunque su torpeza es legendaria. Su amor por la cerveza Duff es conocido por todos.",
-    "imageUrl": "",
+    "imageUrl": "https://www.record.com.mx/sites/default/files/styles/amp-discovery-1200x/public/articulos/2023/05/12/coche-homer-simpson_1.jpg",
     "facts": {
       "Comida favorita": "Rosquillas",
       "Ocupación": "Supervisor de seguridad en la planta nuclear",
