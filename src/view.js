@@ -15,7 +15,6 @@ export const renderItems = (data) => {
 
     li.innerHTML += `
     <dl itemscope itemtype="">
-      <dd itemprop="imgeUrl">${item.imageUrl}</dd>
       <dt>Nombre:</dt><dd itemprop="name">${item.name}</dd>
       <dt>Descripción corta:</dt><dd itemprop="shortDescription">${item.shortDescription}</dd>
       <dt>Hechos:</dt><dd itemprop="facts">
