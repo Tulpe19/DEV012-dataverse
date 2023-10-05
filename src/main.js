@@ -8,3 +8,4 @@ const root = document.getElementById("root");
 root.appendChild(renderItems(data));
 
 console.log(example, renderItems(data), data);
+

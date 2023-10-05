@@ -4,7 +4,7 @@ export default [
     "name": "Homero Simpson",
     "shortDescription": "Padre torpe y amante de la cerveza.",
     "description": "Homer Simpson es el patriarca de la familia Simpson. Trabaja en la planta de energía nuclear de Springfield como supervisor de seguridad, aunque su torpeza es legendaria. Su amor por la cerveza Duff es conocido por todos.",
-    "imageUrl": "https://www.record.com.mx/sites/default/files/styles/amp-discovery-1200x/public/articulos/2023/05/12/coche-homer-simpson_1.jpg",
+    "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/73256248-616c-4779-aa68-106c298d0710/dftk979-bcf7ee87-e1ad-4064-bc48-cc0d1c80888f.png/v1/fill/w_670,h_1192/homer_simpson_vector_by_redkirb_dftk979-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkyMCIsInBhdGgiOiJcL2ZcLzczMjU2MjQ4LTYxNmMtNDc3OS1hYTY4LTEwNmMyOThkMDcxMFwvZGZ0azk3OS1iY2Y3ZWU4Ny1lMWFkLTQwNjQtYmM0OC1jYzBkMWM4MDg4OGYucG5nIiwid2lkdGgiOiI8PTEwODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.pIRfXQ2pv4JIz_rPiy8U0qduFjZe0lT7PZMnLSfOn2E",
     "facts": {
       "Comida favorita": "Rosquillas",
       "Ocupación": "Supervisor de seguridad en la planta nuclear",
@@ -19,7 +19,7 @@ export default [
     "name": "Bart Simpson",
     "shortDescription": "Hijo travieso y bromista.",
     "description": "Bart Simpson es el hijo mayor de la familia Simpson. Es conocido por sus bromas y travesuras en la escuela y en la ciudad de Springfield. Siempre lleva consigo su patineta.",
-    "imageUrl": "https://ejemplo.com/bart.jpg",
+    "imageUrl":"https://seeklogo.com/images/B/Bart_Simpson-logo-9504CEDCC1-seeklogo.com.png",
     "facts": {
       "Comida favorita": "Rosquillas",
       "Ocupación": "Estudiante",
@@ -34,7 +34,7 @@ export default [
     "name": "Marge Simpson",
     "shortDescription": "Madre cariñosa y ama de casa.",
     "description": "Marge Simpson es la madre de la familia Simpson. Es una ama de casa dedicada y cariñosa. Su distintiva torre de cabello azul la hace fácilmente reconocible. Marge es conocida por su paciencia y su amor por la familia.",
-    "imageUrl": "https://ejemplo.com/marge.jpg",
+    "imageUrl": "https://www.freeiconspng.com/thumbs/marge-simpson-png/marge-simpson-png-3.png",
     "facts": {
       "Comida favorita": "Panqueques",
       "Ocupación": "Ama de casa",
@@ -49,7 +49,7 @@ export default [
     "name": "Lisa Simpson",
     "shortDescription": "Hija inteligente y activista.",
     "description": "Lisa Simpson es la hija mediana de la familia Simpson. Es conocida por su inteligencia y su pasión por la justicia social y el medio ambiente. Toca el saxofón y es una estudiante ejemplar.",
-    "imageUrl": "https://ejemplo.com/lisa.jpg",
+    "imageUrl": "https://clipart-library.com/data_images/381218.gif",
     "facts": {
       "Comida favorita": "Comida vegetariana",
       "Ocupación": "Estudiante",
@@ -64,7 +64,7 @@ export default [
     "name": "Ned Flanders",
     "shortDescription": "Vecino amable y religioso.",
     "description": "Ned Flanders es el vecino de los Simpson. Es extremadamente amable, religioso y optimista. Suele decir frases como \"¡Hola, vecino!\" y es propietario de la tienda \"La casita de los churros\".",
-    "imageUrl": "https://ejemplo.com/ned.jpg",
+    "imageUrl":"https://i.pinimg.com/originals/b7/e6/e5/b7e6e5f269f0659c4edda0056c79e2b7.png",
     "facts": {
       "Comida favorita": "Churros",
       "Ocupación": "Dueño de la tienda \"La casita de los churros\"",
@@ -79,7 +79,7 @@ export default [
     "name": "Apu Nahasapeemapetilon",
     "shortDescription": "Dueño de la tienda Kwik-E-Mart.",
     "description": "Apu Nahasapeemapetilon es el dueño de la tienda Kwik-E-Mart en Springfield. Es conocido por su acento indio y su trabajo incansable.",
-    "imageUrl": "https://ejemplo.com/apu.jpg",
+    "imageUrl": "https://i.pinimg.com/originals/94/37/b2/9437b2704c7d2ce513daea94f37d904d.png",
     "facts": {
       "Comida favorita": "Curry",
       "Ocupación": "Dueño de Kwik-E-Mart",
@@ -94,7 +94,7 @@ export default [
     "name": "Barney Gumble",
     "shortDescription": "Amigo de Homer y amante de la cerveza.",
     "description": "Barney Gumble es el mejor amigo de Homer Simpson y un amante empedernido de la cerveza. A pesar de su adicción al alcohol, ocasionalmente muestra destellos de genialidad.",
-    "imageUrl": "https://ejemplo.com/barney.jpg",
+    "imageUrl": "",
     "facts": {
       "Comida favorita": "Cerveza",
       "Ocupación": "Desempleado",
@@ -109,7 +109,7 @@ export default [
     "name": "Moe Szyslak",
     "shortDescription": "Dueño de la taberna de Moe.",
     "description": "Moe Szyslak es el dueño de la taberna de Moe en Springfield. Es conocido por su mal genio, su fealdad y su vida amorosa desafortunada. A pesar de todo, Moe es un amigo leal y un barman hábil.",
-    "imageUrl": "URL de la imagen de Moe",
+    "imageUrl": "https://images.freeimages.com/vhq/images/previews/8cc/moe-szyslak-1-423729.jpg?fmt=webp&w=350",
     "facts": {
       "Comida favorita": "Cerveza Duff",
       "Ocupación": "Dueño de la taberna de Moe",
@@ -124,7 +124,7 @@ export default [
     "name": "Lenny Leonard",
     "shortDescription": "Amigo de Homer y trabajador de la planta nuclear.",
     "description": "Lenny Leonard es uno de los amigos de Homer Simpson y trabaja junto a él en la planta de energía nuclear de Springfield. Es conocido por su personalidad tranquila y su sentido del humor.",
-    "imageUrl": "URL de la imagen de Lenny",
+    "imageUrl": "https://e7.pngegg.com/pngimages/937/453/png-clipart-lenny-leonard-carl-carlson-homer-simpson-barney-gumble-moe-szyslak-others-miscellaneous-television-thumbnail.png",
     "facts": {
       "Comida favorita": "Rosquillas",
       "Ocupación": "Trabajador en la planta nuclear",
@@ -139,7 +139,7 @@ export default [
     "name": "Montgomery Burns",
     "shortDescription": "Dueño de la planta nuclear y villano.",
     "description": "Montgomery Burns, conocido como Mr. Burns, es el codicioso dueño de la planta nuclear de Springfield. Es famoso por su maldad y su desprecio por el bienestar de los demás habitantes de la ciudad.",
-    "imageUrl": "URL de la imagen de Mr. Burns",
+    "imageUrl": "https://i.pinimg.com/originals/e2/20/7f/e2207f07a19d216d907ba2d009da4ab0.png",
     "facts": {
       "Comida favorita": "Sopa de tortuga",
       "Ocupación": "Dueño de la planta nuclear",
@@ -154,7 +154,7 @@ export default [
     "name": "Seymour Skinner",
     "shortDescription": "Director de la Escuela Primaria de Springfield.",
     "description": "Seymour Skinner es el director de la Escuela Primaria de Springfield. Es conocido por su rigidez y su devoción por mantener la disciplina en la escuela, aunque a veces se muestra vulnerable.",
-    "imageUrl": "URL de la imagen de Skinner",
+    "imageUrl": "https://i.pinimg.com/originals/a6/81/80/a681808fd8a4ce016d0b29b1fd4483b4.png",
     "facts": {
       "Comida favorita": "Ración militar",
       "Ocupación": "Director de la Escuela Primaria de Springfield",
@@ -169,7 +169,7 @@ export default [
     "name": "Groundskeeper Willie",
     "shortDescription": "Encargado de mantenimiento de la escuela.",
     "description": "Groundskeeper Willie es el encargado de mantenimiento de la Escuela Primaria de Springfield. Es escocés y tiene un fuerte acento. Willie es rudo pero leal.",
-    "imageUrl": "URL de la imagen de Willie",
+    "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/86cf185c-ad61-4faa-9c63-de77f6c62a3c/db32ku8-722a9d9e-1fee-40b3-9f9c-8935e0e09378.png/v1/fill/w_325,h_325/groundskeeper_willie___the_simpsons_by_domejohnny_db32ku8-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzI1IiwicGF0aCI6IlwvZlwvODZjZjE4NWMtYWQ2MS00ZmFhLTljNjMtZGU3N2Y2YzYyYTNjXC9kYjMya3U4LTcyMmE5ZDllLTFmZWUtNDBiMy05ZjljLTg5MzVlMGUwOTM3OC5wbmciLCJ3aWR0aCI6Ijw9MzI1In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.IjH3kJgUKv5wpOCEb2IpIiAt4fNqvfNec8jRhkkqQMM",
     "facts": {
       "Comida favorita": "Haggis",
       "Ocupación": "Encargado de mantenimiento de la escuela",
@@ -184,7 +184,7 @@ export default [
     "name": "Krusty el Payaso",
     "shortDescription": "Presentador de televisión y empresario.",
     "description": "Krusty el Payaso es un famoso presentador de televisión y empresario en Springfield. A pesar de su éxito, es un personaje atormentado por sus problemas personales.",
-    "imageUrl": "URL de la imagen de Krusty",
+    "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/93cb2394-db3d-4c6f-8393-d493a2aa1323/dfwry68-8619e4f5-dc77-46d2-96e2-acec94d4bd29.png/v1/fill/w_450,h_697/krusty_vector_by_wessieboi99_dfwry68-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njk3IiwicGF0aCI6IlwvZlwvOTNjYjIzOTQtZGIzZC00YzZmLTgzOTMtZDQ5M2EyYWExMzIzXC9kZndyeTY4LTg2MTllNGY1LWRjNzctNDZkMi05NmUyLWFjZWM5NGQ0YmQyOS5wbmciLCJ3aWR0aCI6Ijw9NDUwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.2F11KK9hBnvLPDnRyzjAc0bmAZbDwo_381SpXJEmC8k",
     "facts": {
       "Comida favorita": "Comida basura",
       "Ocupación": "Presentador de televisión y empresario",
@@ -199,7 +199,7 @@ export default [
     "name": "Milhouse Van Houten",
     "shortDescription": "Mejor amigo de Bart y compañero de aventuras.",
     "description": "Milhouse Van Houten es el mejor amigo de Bart Simpson y compañero de aventuras. Siempre lleva lentes y es conocido por su personalidad tímida y su amor por Lisa Simpson. A menudo se mete en problemas debido a su lealtad a Bart.",
-    "imageUrl": "URL de la imagen de Milhouse",
+    "imageUrl": "https://i.pinimg.com/originals/5d/4e/19/5d4e190a5c1adb77e461028613b53127.png",
     "facts": {
       "Comida favorita": "Manzanas",
       "Ocupación": "Estudiante",
@@ -214,7 +214,7 @@ export default [
     "name": "Ralph Wiggum",
     "shortDescription": "Niño inocente y torpe.",
     "description": "Ralph Wiggum es un niño inocente y extremadamente torpe en la Escuela Primaria de Springfield. Sus respuestas y acciones a menudo son desconcertantes y cómicas.",
-    "imageUrl": "URL de la imagen de Ralph",
+    "imageUrl": "https://w7.pngwing.com/pngs/94/162/png-transparent-the-simpsons-character-illustration-ralph-wiggum-chief-wiggum-lisa-simpson-marge-simpson-bart-simpson-the-simpsons-springfield-fictional-character-cartoon.png",
     "facts": {
       "Comida favorita": "Pegamento",
       "Ocupación": "Estudiante",
