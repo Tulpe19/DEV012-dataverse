@@ -38,18 +38,30 @@ body div {
 
 ul{
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   
 }
 
 li{
   background-color:darkcyan;
   width: 21rem;
+  -webkit-text-stroke: 1px #000000; /*propiedad para darle un grosor y color determinado al font*/ 
+  color: #625603;
+  font-weight: bold;
+  border: black 8px solid;
+  margin: 1rem;
+  border-radius: 7%;
+  padding-left: 1rem;
+  
 
 }
 
 img{
   height: 15rem;
   width: 10rem;
-  padding-left: 3rem;
+  padding-left: 4rem;
   padding-top: 1rem;
+  
 }

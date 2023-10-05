@@ -94,7 +94,7 @@ export default [
     "name": "Barney Gumble",
     "shortDescription": "Amigo de Homer y amante de la cerveza.",
     "description": "Barney Gumble es el mejor amigo de Homer Simpson y un amante empedernido de la cerveza. A pesar de su adicción al alcohol, ocasionalmente muestra destellos de genialidad.",
-    "imageUrl": "",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/de/Barney_Gumble.png",
     "facts": {
       "Comida favorita": "Cerveza",
       "Ocupación": "Desempleado",
@@ -109,7 +109,7 @@ export default [
     "name": "Moe Szyslak",
     "shortDescription": "Dueño de la taberna de Moe.",
     "description": "Moe Szyslak es el dueño de la taberna de Moe en Springfield. Es conocido por su mal genio, su fealdad y su vida amorosa desafortunada. A pesar de todo, Moe es un amigo leal y un barman hábil.",
-    "imageUrl": "https://images.freeimages.com/vhq/images/previews/8cc/moe-szyslak-1-423729.jpg?fmt=webp&w=350",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/Moe_Szyslak.png",
     "facts": {
       "Comida favorita": "Cerveza Duff",
       "Ocupación": "Dueño de la taberna de Moe",
@@ -124,7 +124,7 @@ export default [
     "name": "Lenny Leonard",
     "shortDescription": "Amigo de Homer y trabajador de la planta nuclear.",
     "description": "Lenny Leonard es uno de los amigos de Homer Simpson y trabaja junto a él en la planta de energía nuclear de Springfield. Es conocido por su personalidad tranquila y su sentido del humor.",
-    "imageUrl": "https://e7.pngegg.com/pngimages/937/453/png-clipart-lenny-leonard-carl-carlson-homer-simpson-barney-gumble-moe-szyslak-others-miscellaneous-television-thumbnail.png",
+    "imageUrl": "https://static.simpsonswiki.com/images/thumb/a/ae/Lenny_Leonard.png/200px-Lenny_Leonard.png",
     "facts": {
       "Comida favorita": "Rosquillas",
       "Ocupación": "Trabajador en la planta nuclear",
@@ -214,7 +214,7 @@ export default [
     "name": "Ralph Wiggum",
     "shortDescription": "Niño inocente y torpe.",
     "description": "Ralph Wiggum es un niño inocente y extremadamente torpe en la Escuela Primaria de Springfield. Sus respuestas y acciones a menudo son desconcertantes y cómicas.",
-    "imageUrl": "https://w7.pngwing.com/pngs/94/162/png-transparent-the-simpsons-character-illustration-ralph-wiggum-chief-wiggum-lisa-simpson-marge-simpson-bart-simpson-the-simpsons-springfield-fictional-character-cartoon.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Ralph_Wiggum.png",
     "facts": {
       "Comida favorita": "Pegamento",
       "Ocupación": "Estudiante",
@@ -229,7 +229,7 @@ export default [
     "name": "Martin Prince",
     "shortDescription": "Niño superdotado y compañero de clase de Bart.",
     "description": "Martin Prince es un niño superdotado y compañero de clase de Bart Simpson en la Escuela Primaria de Springfield. Es conocido por su intelecto y personalidad peculiar.",
-    "imageUrl": "https://i.pinimg.com/originals/3e/38/73/3e3873d7060d166e3bc3ccc26820a9e8.png",
+    "imageUrl": "https://static.simpsonswiki.com/images/4/46/Martin_Prince.png",
     "facts": {
       "Comida favorita": "Brócoli",
       "Ocupación": "Estudiante",
@@ -240,11 +240,11 @@ export default [
     }
   },
   {
-    "id": 25,
+    "id": "otto-mann",
      "name": "Otto Mann",
      "shortDescription": "Conductor del autobús escolar de Springfield.",
      "description": "Otto Mann es el conductor del autobús escolar de Springfield y es conocido por su actitud relajada y su afición por la música rock. Siempre está en su propio mundo y tiene una relación especial con Bart Simpson.",
-     "imageUrl": "url_de_la_imagen_de_Otto.jpg",
+     "imageUrl": "https://static.simpsonswiki.com/images/thumb/0/09/Otto_Mann.png/200px-Otto_Mann.png",
 
   facts: {
 
@@ -264,7 +264,7 @@ export default [
     "name": "Luann Van Houten",
     "shortDescription": "Madre de Milhouse y exesposa de Kirk.",
     "description": "Luann Van Houten es la madre de Milhouse Van Houten y la exesposa de Kirk Van Houten. Aparece ocasionalmente en la serie y se le conoce por su personalidad alegre.",
-    "imageUrl": "URL de la imagen de Luann",
+    "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c52cfd32-9473-4939-abb6-1aed39529c1f/dg6jzwk-4c9f6c4d-2301-4e02-8c34-35d0e5f47697.png/v1/fill/w_559,h_1430/luann_van_houten_vector_2_by_homersimpson1983_dg6jzwk-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjUyMCIsInBhdGgiOiJcL2ZcL2M1MmNmZDMyLTk0NzMtNDkzOS1hYmI2LTFhZWQzOTUyOWMxZlwvZGc2anp3ay00YzlmNmM0ZC0yMzAxLTRlMDItOGMzNC0zNWQwZTVmNDc2OTcucG5nIiwid2lkdGgiOiI8PTk4NSJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.zpGgTnAeaaVojCAvamoRuW0xZ_clZsSs-fT-doOBtac",
     "facts": {
       "Comida favorita": "Helado",
       "Ocupación": "No especificada",
@@ -294,7 +294,7 @@ export default [
     "name": "Sideshow Bob",
     "shortDescription": "Antiguo ayudante de Krusty convertido en villano.",
     "description": "Sideshow Bob, cuyo nombre real es Robert Terwilliger, es un antiguo ayudante de Krusty el Payaso que se convierte en un villano obsesionado con Bart Simpson y la venganza.",
-    "imageUrl": "URL de la imagen de Sideshow Bob",
+    "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f5cdb7ea-f851-4c21-96f2-aeff521d9586/ddue4la-47b267bd-914d-449a-b92d-8e7ca54c7f1a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y1Y2RiN2VhLWY4NTEtNGMyMS05NmYyLWFlZmY1MjFkOTU4NlwvZGR1ZTRsYS00N2IyNjdiZC05MTRkLTQ0OWEtYjkyZC04ZTdjYTU0YzdmMWEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fahlRH6JJ7dKRW7ejdPuzm1mSIKi4-Q_x3RiYsuAfEs",
     "facts": {
       "Comida favorita": "Venganza",
       "Ocupación": "Criminal",
@@ -309,7 +309,7 @@ export default [
     "name": "Patty Bouvier",
     "shortDescription": "Hermana gemela de Selma y empleada de la DMV.",
     "description": "Patty Bouvier es la hermana gemela de Selma Bouvier y trabaja como empleada en la DMV de Springfield. Ambas hermanas comparten un profundo desprecio por Homer Simpson.",
-    "imageUrl": "URL de la imagen de Patty",
+    "imageUrl":"https://wikiwandv2-19431.kxcdn.com/_next/image?url=https://upload.wikimedia.org/wikipedia/en/f/f8/Patty_Bouvier.png&w=640&q=50",
     "facts": {
       "Comida favorita": "Cigarrillos mentolados",
       "Ocupación": "Empleada de la DMV",
@@ -324,7 +324,7 @@ export default [
     "name": "Selma Bouvier",
     "shortDescription": "Hermana gemela de Patty y empleada de la DMV.",
     "description": "Selma Bouvier es la hermana gemela de Patty Bouvier y también trabaja como empleada en la DMV de Springfield. Al igual que su hermana, tiene una opinión muy negativa de Homer Simpson.",
-    "imageUrl": "URL de la imagen de Selma",
+    "imageUrl":"https://i.pinimg.com/originals/91/e7/d5/91e7d5713f34e6381cf5daab839e3617.png",
     "facts": {
       "Comida favorita": "Cigarrillos mentolados",
       "Ocupación": "Empleada de la DMV",
@@ -339,7 +339,7 @@ export default [
     "name": "Maude Flanders",
     "shortDescription": "Esposa de Ned Flanders y madre de Rod y Todd.",
     "description": "Maude Flanders es la difunta esposa de Ned Flanders y la madre de Rod y Todd. Era conocida por su bondad y su devoción religiosa antes de su trágica muerte en un estadio deportivo.",
-    "imageUrl": "URL de la imagen de Maude",
+    "imageUrl":"https://i.pinimg.com/originals/0b/87/f9/0b87f9fadbda260d6fd32e06552fac29.png",
     "facts": {
       "Comida favorita": "Vegetales",
       "Ocupación": "Ama de casa",
@@ -354,7 +354,7 @@ export default [
     "name": "Lionel Hutz",
     "shortDescription": "Abogado incompetente y excéntrico.",
     "description": "Lionel Hutz es un abogado extremadamente incompetente y excéntrico en Springfield. A menudo se involucra en casos legales ridículos y siempre está en busca de clientes desesperados.",
-    "imageUrl": "URL de la imagen de Lionel Hutz",
+    "imageUrl": "https://i.pinimg.com/originals/6f/89/e2/6f89e23a6e5cd2eb5d36b0ba062292f1.png",
     "facts": {
       "Comida favorita": "Comida rápida",
       "Ocupación": "Abogado",
