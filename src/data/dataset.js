@@ -229,7 +229,7 @@ export default [
     "name": "Martin Prince",
     "shortDescription": "Niño superdotado y compañero de clase de Bart.",
     "description": "Martin Prince es un niño superdotado y compañero de clase de Bart Simpson en la Escuela Primaria de Springfield. Es conocido por su intelecto y personalidad peculiar.",
-    "imageUrl": "URL de la imagen de Martin",
+    "imageUrl": "https://i.pinimg.com/originals/3e/38/73/3e3873d7060d166e3bc3ccc26820a9e8.png",
     "facts": {
       "Comida favorita": "Brócoli",
       "Ocupación": "Estudiante",
@@ -240,20 +240,25 @@ export default [
     }
   },
   {
-    "id": "principal-skinner",
-    "name": "Principal Skinner",
-    "shortDescription": "Director de la Escuela Primaria de Springfield.",
-    "description": "El director Seymour Skinner es el director de la Escuela Primaria de Springfield. Es conocido por su rigidez y su devoción por mantener la disciplina en la escuela.",
-    "imageUrl": "URL de la imagen de Skinner",
-    "facts": {
-      "Comida favorita": "Albóndigas",
-      "Ocupación": "Director de la Escuela Primaria de Springfield",
-      "Frase celebre": "¡Silencio en el pasillo!"
-    },
-    "extraInfo": {
-      "sourceUrl": "URL de la fuente de la imagen de Skinner"
-    }
-  },  
+    "id": 25,
+     "name": "Otto Mann",
+     "shortDescription": "Conductor del autobús escolar de Springfield.",
+     "description": "Otto Mann es el conductor del autobús escolar de Springfield y es conocido por su actitud relajada y su afición por la música rock. Siempre está en su propio mundo y tiene una relación especial con Bart Simpson.",
+     "imageUrl": "url_de_la_imagen_de_Otto.jpg",
+
+  facts: {
+
+    "Comida favorita": "Pizza",
+    "Ocupación": "Conductor del autobús escolar de Springfield",
+    "Frase celebre": "¡Duude, es como si los colores hablaran"
+
+  },
+    extraInfo: {
+
+    link: "https://simpsons.fandom.com/wiki/Otto_Mann"
+
+  }
+},
   {
     "id": "luann-van-houten",
     "name": "Luann Van Houten",
@@ -274,7 +279,7 @@ export default [
     "name": "Nelson Muntz",
     "shortDescription": "Matón de la escuela y conocido por su risa.",
     "description": "Nelson Muntz es un matón en la Escuela Primaria de Springfield y es conocido por su risa burlona. Aunque a menudo se comporta de manera intimidante, a veces muestra un lado más humano.",
-    "imageUrl": "URL de la imagen de Nelson",
+    "imageUrl": "https://i.pinimg.com/originals/bc/16/f9/bc16f9cb28b81f0d0a9e60bace7601cd.png",
     "facts": {
       "Comida favorita": "Sandwich de mantequilla de cacahuate",
       "Ocupación": "Estudiante",

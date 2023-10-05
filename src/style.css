@@ -24,6 +24,7 @@ header {
 
 .header-img{
   width: 95rem;
+  padding: 0%;
 }
 
 body div {
@@ -43,9 +44,12 @@ ul{
 li{
   background-color:darkcyan;
   width: 21rem;
+
 }
 
 img{
   height: 15rem;
   width: 10rem;
+  padding-left: 3rem;
+  padding-top: 1rem;
 }
