@@ -50,7 +50,7 @@ ul{
 
 li{
   background-color:darkcyan;
-  width: 21rem;
+  width: 15rem;
   -webkit-text-stroke: 1px #000000; /*propiedad para darle un grosor y color determinado al font*/ 
   color: #625603;
   font-weight: bold;
@@ -58,13 +58,13 @@ li{
   margin: 1rem;
   border-radius: 7%;
   padding-left: 1rem;
-  
+  font-size: small;
 
 }
 
 img{
-  height: 15rem;
-  width: 10rem;
+  height: 10rem;
+  width: 5rem;
   padding-left: 4rem;
   padding-top: 1rem;
   
