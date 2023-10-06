@@ -1,5 +1,5 @@
 html{
-  font-family: 'homer-simpson-revised', sans-serif;
+  font-family: 'Simpsonfont', sans-serif;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 }
 
 body h1, h2 {
-  -webkit-text-stroke: 1px #000000; /*propiedad para darle un grosor y color determinado al font*/ 
+  -webkit-text-stroke: 0.4px #000000; /*propiedad para darle un grosor y color determinado al font*/ 
   color: #FFDE00;
 }
 
@@ -25,6 +25,10 @@ header {
 .header-img{
   width: 95rem;
   padding: 0%;
+}
+
+header select, option {
+  font-family: 'Simpsonfont', sans-serif;
 }
 
 body div {
