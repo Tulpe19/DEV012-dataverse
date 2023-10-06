@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Simpsons Lovers</title>
-    <link href="https://fonts.cdnfonts.com/css/homer-simpson-revised?styles=83569" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/simpsonfont" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <img class="header-img" src="Springfield_panoramic.jpg" alt="Springfield panoramic">
-      <h1>¡Simpsons lovers!</h1>
+      <h1>Simpsons lovers!</h1>
       <div>
         <label for="personajes">Busca por personaje:</label>
         <select data-testid="select-filter" name="personajes" id="nombres-select">
@@ -39,18 +39,26 @@
           <option value="Martin Prince">Martin Prince</option>
         </select> 
 
-        <label for="ordenAlfabetico">Ordena por:</label>
-        <select data-testid="select-sort"  name="ordenAlfabetico">
-          <option value="asc">A - Z</option>
-          <option value="desc">Z - A</option>
-        </select> 
-
         <label for="hechos">Busca por hechos:</label>
         <select data-testid="select-filter"  name="hechos">
           <option value="asc">Comida favorita</option>
           <option value="desc">Ocupación</option>
           <option value="desc">Frase célebre</option>
-        </select>  
+        </select> 
+        
+        <label for="ordenAlfabetico">Ordena por:</label>
+        <select data-testid="sort-order"  name="ordenAlfabetico">
+          <option value="asc">A - Z</option>
+          <option value="desc">Z - A</option>
+        </select>
+
+        <label for="">Asc</label>
+        <option value=""></option>
+        <input type="radio" value="asc">
+
+        <label for="">Desc</label>
+        <input type="radio" value="desc">
+
         <button data-testid="button-clear">Limpiar</button>
       </div>
     </header>

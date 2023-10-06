@@ -2,11 +2,11 @@ export const renderItems = (data) => {
   console.log(data)
   // Aquí comienza tu código y puedes retornar lo que tu necesites
 
-  const ul = document.createElement("ul");
+  const ul = document.createElement("ul")
   
     
   for(const item of data) {
-    const li = document.createElement("li");
+    const li = document.createElement("li")
 
     const img = document.createElement("img")
 
@@ -22,13 +22,13 @@ export const renderItems = (data) => {
       <dt>Ocupación:</dt><dd itemprop="ocupacion">${item.facts['Ocupación']}</dd>
       <dt>Frase célebre:</dt><dd itemprop="frase">${item.facts['Frase celebre']}</dd>
     </dl>
-    `;
+    `
 
-    ul.appendChild(li);
+    ul.appendChild(li)
 
   }
 
-  return ul;
+  return ul
   
 };
 

@@ -2,18 +2,18 @@
 import data from "./data/dataset.js";
 import { renderItems } from "./view.js";
 
-let nombresSelect = document.getElementById("nombres-select");
+const nombresSelect = document.getElementById("nombres-select");
 
-let personajes = data;
+const personajes = data;
 
-let root = document.getElementById("root");
+const root = document.getElementById("root");
 
 nombresSelect.addEventListener("input", (event) => {
   console.log("funciona", event.target.value);
 
   const selectedName = event.target.value;
 
-  let foundPersonaje = personajes.find(
+  const foundPersonaje = personajes.find(
     (personaje) => personaje.name === selectedName
   );
 
@@ -22,10 +22,17 @@ nombresSelect.addEventListener("input", (event) => {
   root.appendChild(renderItems([foundPersonaje]));
 });
 
+
+
 export const example = () => {
   return "example";
 };
 
-export const anotherExample = () => {
-  return [];
+export const sortBy = (data,sortBy,sortOrder) => {
+  if(sortOrder === "asc") {
+    return data.sort((a,b) => (a[sortBy] > b[sortBy]) ? 1:-1)
+  } else if (sortOrder === "desc") {
+    return data.sort((a,b) => (a[sortBy] < b[sortBy]) ? 1:-1)
+  }
+  throw new Error("")
 };
