@@ -9,6 +9,7 @@ const nombresSelect = document.querySelector('select[name="personajes"]')
 const generoSelect = document.querySelector('select[name="genero"]')
 const hechoSelect = document.querySelector('select[name="hechos"]')
 const ordenSelect = document.querySelector('select[name="ordenAlfabetico"]')
+const buttonClear = document.querySelector('button[data-testid="button-clear"]');
 root.appendChild(renderItems(data));
 
 nombresSelect.addEventListener("change", (event) => {
@@ -48,10 +49,17 @@ function ordenar() {
 
 }
 
-ordenSelect.addEventListener("change", (event) => {
+ordenSelect.addEventListener("change", () => {
   ordenar()
 })
 
-hechoSelect.addEventListener("change", (event) => {
+hechoSelect.addEventListener("change", () => {
   ordenar()
+})
+
+buttonClear.addEventListener("click", function (e) {
+  e.preventDefault();
+  root.innerHTML = "";
+  //limpiar la función de ordenar.
+  root.appendChild(renderItems(data));
 })

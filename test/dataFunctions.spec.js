@@ -1,18 +1,16 @@
-import { example, anotherExample } from '../src/dataFunctions.js';
-import { data as fakeData } from './data.js';
+import { filterData } from '../src/dataFunctions.js';
+//import { data as fakeData } from './data.js';
 
-console.log(fakeData);
+describe('pruebas a la funcion de filterData', () => {
 
-describe('example', () => {
-
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+  it('deberia de ser una funcion', () => {
+    expect(typeof filterData).toBe('function');
   });
 });
 
-describe('anotherExample', () => {
+/*describe('anotherExample', () => {
 
   it('returns `anotherExample`', () => {
     expect(anotherExample()).toBe('OMG');
   });
-});
+}); */
