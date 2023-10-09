@@ -12,7 +12,7 @@
       <h1>Simpsons lovers!</h1>
       <div>
         <label for="personajes">Busca por personaje:</label>
-        <select data-testid="select-filter" name="personajes" id="nombres-select">
+        <select data-testid="select-filter" name="personajes">
           <option value="Apu Nahasapeemapetilon">Apu Nahasapeemapetilo</option>
           <option value="Barney Gumble"> Barney Gumble</option>
           <option value="Bart Simpson">Bart Simpson</option>
@@ -39,25 +39,24 @@
           <option value="Martin Prince">Martin Prince</option>
         </select> 
 
-        <label for="hechos">Busca por hechos:</label>
+        <label for="genero">Filtra por género:</label>
+        <select data-testid="select-filter" name="genero">
+          <option value="Masculino">Masculino</option>
+          <option value="Femenino">Femenino</option>
+        </select>
+
+        <label for="hechos">Ordena por hechos:</label>
         <select data-testid="select-filter"  name="hechos">
-          <option value="asc">Comida favorita</option>
-          <option value="desc">Ocupación</option>
-          <option value="desc">Frase célebre</option>
+          <option value="Comida favorita">Comida favorita</option>
+          <option value="Ocupación">Ocupación</option>
+          <option value="Frase célebre">Frase célebre</option>
         </select> 
         
-        <label for="ordenAlfabetico">Ordena por:</label>
-        <select data-testid="sort-order"  name="ordenAlfabetico">
+        <label for="ordenAlfabetico">Tipo de ordenamiento:</label>
+        <select data-testid="select-sort"  name="ordenAlfabetico">
           <option value="asc">A - Z</option>
           <option value="desc">Z - A</option>
         </select>
-
-        <label for="">Asc</label>
-        <option value=""></option>
-        <input type="radio" value="asc">
-
-        <label for="">Desc</label>
-        <input type="radio" value="desc">
 
         <button data-testid="button-clear">Limpiar</button>
       </div>
