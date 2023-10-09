@@ -8,7 +8,8 @@ export default [
     "facts": {
       "Comida favorita": "Rosquillas",
       "Ocupación": "Supervisor de seguridad en la planta nuclear",
-      "Frase celebre": "¡Mmm... cerveza!"
+      "Frase celebre": "¡Mmm... cerveza!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "https://en.wikipedia.org/wiki/Homer_Simpson"
@@ -23,7 +24,8 @@ export default [
     "facts": {
       "Comida favorita": "Rosquillas",
       "Ocupación": "Estudiante",
-      "Frase celebre": "¡Ay, caramba!"
+      "Frase celebre": "¡Ay, caramba!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "https://en.wikipedia.org/wiki/Bart_Simpson"
@@ -38,7 +40,8 @@ export default [
     "facts": {
       "Comida favorita": "Panqueques",
       "Ocupación": "Ama de casa",
-      "Frase celebre": "¡Homero!"
+      "Frase celebre": "¡Homero!",
+      "Género": "Femenino"
     },
     "extraInfo": {
       "sourceUrl": "https://en.wikipedia.org/wiki/Marge_Simpson"
@@ -53,7 +56,8 @@ export default [
     "facts": {
       "Comida favorita": "Comida vegetariana",
       "Ocupación": "Estudiante",
-      "Frase celebre": "¡No al maltrato animal!"
+      "Frase celebre": "¡No al maltrato animal!",
+      "Género": "Femenino"
     },
     "extraInfo": {
       "sourceUrl": "https://en.wikipedia.org/wiki/Lisa_Simpson"
@@ -68,7 +72,8 @@ export default [
     "facts": {
       "Comida favorita": "Churros",
       "Ocupación": "Dueño de la tienda \"La casita de los churros\"",
-      "Frase celebre": "¡Hola, vecino!"
+      "Frase celebre": "¡Hola, vecino!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "https://en.wikipedia.org/wiki/Ned_Flanders"
@@ -83,7 +88,8 @@ export default [
     "facts": {
       "Comida favorita": "Curry",
       "Ocupación": "Dueño de Kwik-E-Mart",
-      "Frase celebre": "¡Gracias, vuelva pronto!"
+      "Frase celebre": "¡Gracias, vuelva pronto!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "https://en.wikipedia.org/wiki/Apu_Nahasapeemapetilon"
@@ -98,7 +104,8 @@ export default [
     "facts": {
       "Comida favorita": "Cerveza",
       "Ocupación": "Desempleado",
-      "Frase celebre": "¡Homer, eres el mejor amigo que he tenido!"
+      "Frase celebre": "¡Homer, eres el mejor amigo que he tenido!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "https://en.wikipedia.org/wiki/Barney_Gumble"
@@ -113,7 +120,8 @@ export default [
     "facts": {
       "Comida favorita": "Cerveza Duff",
       "Ocupación": "Dueño de la taberna de Moe",
-      "Frase celebre": "¡Duff, por favor!"
+      "Frase celebre": "¡Duff, por favor!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Moe"
@@ -128,7 +136,8 @@ export default [
     "facts": {
       "Comida favorita": "Rosquillas",
       "Ocupación": "Trabajador en la planta nuclear",
-      "Frase celebre": "No me preguntes a mí, soy solo el tipo que pone la tiza en el pizarrón."
+      "Frase celebre": "No me preguntes a mí, soy solo el tipo que pone la tiza en el pizarrón.",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Lenny"
@@ -143,7 +152,8 @@ export default [
     "facts": {
       "Comida favorita": "Sopa de tortuga",
       "Ocupación": "Dueño de la planta nuclear",
-      "Frase celebre": "¡Excelente!"
+      "Frase celebre": "¡Excelente!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Mr. Burns"
@@ -158,7 +168,8 @@ export default [
     "facts": {
       "Comida favorita": "Ración militar",
       "Ocupación": "Director de la Escuela Primaria de Springfield",
-      "Frase celebre": "¡Están ustedes expulsados!"
+      "Frase celebre": "¡Están ustedes expulsados!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Skinner"
@@ -173,7 +184,8 @@ export default [
     "facts": {
       "Comida favorita": "Haggis",
       "Ocupación": "Encargado de mantenimiento de la escuela",
-      "Frase celebre": "¡Ach, malditos críos!"
+      "Frase celebre": "¡Ach, malditos críos!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Willie"
@@ -188,7 +200,8 @@ export default [
     "facts": {
       "Comida favorita": "Comida basura",
       "Ocupación": "Presentador de televisión y empresario",
-      "Frase celebre": "¡Hey, niños!"
+      "Frase celebre": "¡Hey, niños!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Krusty"
@@ -203,7 +216,8 @@ export default [
     "facts": {
       "Comida favorita": "Manzanas",
       "Ocupación": "Estudiante",
-      "Frase celebre": "¡Todo está en orden!"
+      "Frase celebre": "¡Todo está en orden!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Milhouse"
@@ -218,7 +232,8 @@ export default [
     "facts": {
       "Comida favorita": "Pegamento",
       "Ocupación": "Estudiante",
-      "Frase celebre": "¡Mi gato tiene pulgas!"
+      "Frase celebre": "¡Mi gato tiene pulgas!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Ralph"
@@ -233,7 +248,8 @@ export default [
     "facts": {
       "Comida favorita": "Brócoli",
       "Ocupación": "Estudiante",
-      "Frase celebre": "¡Oh, dilema!"
+      "Frase celebre": "¡Oh, dilema!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Martin"
@@ -241,16 +257,17 @@ export default [
   },
   {
     "id": "otto-mann",
-     "name": "Otto Mann",
-     "shortDescription": "Conductor del autobús escolar de Springfield.",
-     "description": "Otto Mann es el conductor del autobús escolar de Springfield y es conocido por su actitud relajada y su afición por la música rock. Siempre está en su propio mundo y tiene una relación especial con Bart Simpson.",
-     "imageUrl": "https://static.simpsonswiki.com/images/thumb/0/09/Otto_Mann.png/200px-Otto_Mann.png",
+    "name": "Otto Mann",
+    "shortDescription": "Conductor del autobús escolar de Springfield.",
+    "description": "Otto Mann es el conductor del autobús escolar de Springfield y es conocido por su actitud relajada y su afición por la música rock. Siempre está en su propio mundo y tiene una relación especial con Bart Simpson.",
+    "imageUrl": "https://static.simpsonswiki.com/images/thumb/0/09/Otto_Mann.png/200px-Otto_Mann.png",
 
   facts: {
 
     "Comida favorita": "Pizza",
     "Ocupación": "Conductor del autobús escolar de Springfield",
-    "Frase celebre": "¡Duude, es como si los colores hablaran"
+    "Frase celebre": "¡Duude, es como si los colores hablaran",
+    "Género": "Masculino"
 
   },
     extraInfo: {
@@ -268,7 +285,8 @@ export default [
     "facts": {
       "Comida favorita": "Helado",
       "Ocupación": "No especificada",
-      "Frase celebre": "¡Vamos, Milhouse, disfruta tu vida!"
+      "Frase celebre": "¡Vamos, Milhouse, disfruta tu vida!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Luann"
@@ -283,7 +301,8 @@ export default [
     "facts": {
       "Comida favorita": "Sandwich de mantequilla de cacahuate",
       "Ocupación": "Estudiante",
-      "Frase celebre": "¡Ja, ja!"
+      "Frase celebre": "¡Ja, ja!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Nelson"
@@ -298,7 +317,8 @@ export default [
     "facts": {
       "Comida favorita": "Venganza",
       "Ocupación": "Criminal",
-      "Frase celebre": "¡Bart, pagarás por esto!"
+      "Frase celebre": "¡Bart, pagarás por esto!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Sideshow Bob"
@@ -313,7 +333,8 @@ export default [
     "facts": {
       "Comida favorita": "Cigarrillos mentolados",
       "Ocupación": "Empleada de la DMV",
-      "Frase celebre": "¡Homer es un idiota!"
+      "Frase celebre": "¡Homer es un idiota!",
+      "Género": "Femenino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Patty"
@@ -328,7 +349,8 @@ export default [
     "facts": {
       "Comida favorita": "Cigarrillos mentolados",
       "Ocupación": "Empleada de la DMV",
-      "Frase celebre": "¡Homero es un idiota!"
+      "Frase celebre": "¡Homero es un idiota!",
+      "Género": "Femenino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Selma"
@@ -343,7 +365,8 @@ export default [
     "facts": {
       "Comida favorita": "Vegetales",
       "Ocupación": "Ama de casa",
-      "Frase celebre": "No especificada"
+      "Frase celebre": "No especificada",
+      "Género": "Femenino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Maude"
@@ -358,7 +381,8 @@ export default [
     "facts": {
       "Comida favorita": "Comida rápida",
       "Ocupación": "Abogado",
-      "Frase celebre": "¡Sí, estoy seguro de que ganaremos!"
+      "Frase celebre": "¡Sí, estoy seguro de que ganaremos!",
+      "Género": "Masculino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Lionel Hutz"
