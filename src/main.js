@@ -35,6 +35,7 @@ generoSelect.addEventListener("change", (event) => {
 });
 
 function ordenar() {
+
   const selectedHecho = hechoSelect.value
   const selectedOrden = ordenSelect.value
   //console.log(selectedHecho, selectedOrden)
@@ -50,16 +51,15 @@ function ordenar() {
 }
 
 ordenSelect.addEventListener("change", () => {
-  ordenar()
+  ordenar();
 })
 
 hechoSelect.addEventListener("change", () => {
-  ordenar()
+  ordenar();
 })
 
 buttonClear.addEventListener("click", function (e) {
   e.preventDefault();
   root.innerHTML = "";
-  //limpiar la función de ordenar.
   root.appendChild(renderItems(data));
 })
