@@ -17,6 +17,9 @@ body h2 {
   -webkit-text-stroke: 0.4px #000000; /*propiedad para darle un grosor y color determinado al font*/ 
   color: #FFDE00;
   font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 10%;
 }
 
 header {
@@ -40,16 +43,23 @@ section {
   height: 20rem;
 }
 
+header label{
+  margin-left: 1rem;
+}
+
 header select, option {
   font-family: 'Simpsonfont', sans-serif;
   background-color: #FFDE00;
   border-radius: 15%;
   border: black 2px solid;
   font-size: medium;
+  margin-left: 0.5rem;
 
 }
 
 body div {
+  display: flex;
+  justify-content: center;
   background-color:darkcyan;
   padding: 5px;
 }
@@ -70,12 +80,13 @@ li{
   background-color:darkcyan;
   width: 15rem; 
   color: white;
-  font-weight: bold;
+  /* font-weight: bold; */
   border: black 8px solid;
   margin: 1rem;
   border-radius: 7%;
   padding-left: 1rem;
   font-size: small;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 img{
@@ -92,6 +103,15 @@ button[data-testid="button-clear"] {
   background-color: #FFDE00;
   border-radius: 15%;
   border: black 2px solid;
+  margin-left: 3rem;
+}
+
+p{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0.5rem;
+  font-size: large;
+  color: #4e0041;
 }
 
 
@@ -113,14 +133,25 @@ button[data-testid="button-clear"] {
     font-size: 4rem;
   }
 
-  header label{
-    margin-left: 1rem;
-  }
-
-  header select {
+  header div {
     display: flex;
     flex-direction: column;
-    margin-left: 8rem;
+    background-color: transparent;
+    width: 200px;
+  }
+
+
+  /* select[name="personajes"]{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    
+
+  } */
+
+  header label select {
+    display: flex;
+    flex-direction: row;
   }
   
   body h2{
