@@ -93,3 +93,46 @@ button[data-testid="button-clear"] {
   border-radius: 15%;
   border: black 2px solid;
 }
+
+
+@media screen and (max-width: 768px) {
+
+  section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-img{
+    width: 17rem;
+    height: 12rem;
+    margin-left: 6rem;
+  }
+
+  body h1{
+    margin:1rem;
+    font-size: 4rem;
+  }
+
+  header label{
+    margin-left: 1rem;
+  }
+
+  header select {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8rem;
+  }
+  
+  body h2{
+    margin-left: 3rem;
+  }
+  ul{
+    display: grid;
+  }
+
+  button{
+    margin-left: 25rem;
+  }
+
+  
+}
