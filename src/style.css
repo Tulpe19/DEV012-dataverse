@@ -93,6 +93,12 @@ li{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+li dd[itemprop="name"]{
+  font-size: large;
+  padding-top: 0.5rem;
+  font-family: 'Simpsonfont', sans-serif;
+}
+
 img{
   height: 10rem;
   width: 5rem;
@@ -140,6 +146,8 @@ p{
   header div {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
     background-color: transparent;
     width: 200px;
   }
@@ -171,8 +179,9 @@ p{
     display: grid;
   }
 
-  button{
-    margin-left: 25rem;
+  button[data-testid="button-clear"]{
+    margin-left: 5rem;
+    margin-top: 1rem
   }
 
   
