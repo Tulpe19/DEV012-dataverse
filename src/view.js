@@ -9,11 +9,13 @@ export const renderItems = (data) => {
     const img = document.createElement("img")
 
     img.src = item.imageUrl
+
+    li.innerHTML+= `<dd itemprop="name">${item.name}</dd>`
     li.appendChild(img)
 
     li.innerHTML += `
     <dl itemscope itemtype="">
-      <dt>Nombre:</dt><dd itemprop="name">${item.name}</dd>
+      
       <dt>Descripción corta:</dt><dd itemprop="shortDescription">${item.shortDescription}</dd>
       <dt>Hechos:</dt><dd itemprop="facts">
       <dt>Comida favorita:</dt><dd itemprop="comidaFavorita">${item.facts['Comida favorita']}</dd>

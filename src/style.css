@@ -119,7 +119,7 @@ p{
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
 
   section{
     display: flex;
@@ -144,6 +144,12 @@ p{
     width: 200px;
   }
 
+  .filtros{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
 
   /* select[name="personajes"]{
     display: flex;
@@ -153,10 +159,10 @@ p{
 
   } */
 
-  header label select {
+  /*header label select {
     display: flex;
     flex-direction: row;
-  }
+  }*/
   
   body h2{
     margin-left: 3rem;
