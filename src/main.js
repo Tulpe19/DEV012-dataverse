@@ -4,12 +4,13 @@ import { renderItems } from "./view.js";
 
 import data from "./data/dataset.js";
 
-const root = document.getElementById("root");
+const root = document.getElementById("card-container");
 const nombresSelect = document.querySelector('select[name="personajes"]')
 const generoSelect = document.querySelector('select[name="genero"]')
 const hechoSelect = document.querySelector('select[name="hechos"]')
 const ordenSelect = document.querySelector('select[name="ordenAlfabetico"]')
 const buttonClear = document.querySelector('button[data-testid="button-clear"]');
+
 root.appendChild(renderItems(data));
 
 nombresSelect.addEventListener("change", (event) => {
@@ -30,7 +31,6 @@ generoSelect.addEventListener("change", (event) => {
   const filteredPersonajes = filterData(personajes, "Género", selectedGender);
 
   root.innerHTML = "";
-
   root.appendChild(renderItems(filteredPersonajes));
 });
 
@@ -45,6 +45,7 @@ function ordenar() {
   const orderedPersonajes = sortBy(personajes, selectedHecho, selectedOrden);
 
   root.innerHTML = "";
+  
 
   root.appendChild(renderItems(orderedPersonajes));
 
@@ -60,6 +61,8 @@ hechoSelect.addEventListener("change", () => {
 
 buttonClear.addEventListener("click", function (e) {
   e.preventDefault();
+  
   root.innerHTML = "";
+  
   root.appendChild(renderItems(data));
 })

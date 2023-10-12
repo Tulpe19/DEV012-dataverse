@@ -1,10 +1,8 @@
 export const renderItems = (data) => {
-  console.log(data)
   // Aquí comienza tu código y puedes retornar lo que tu necesites
 
-  const ul = document.createElement("ul")
+  const ul = document.createElement("ul");
   
-    
   for(const item of data) {
     const li = document.createElement("li")
 
