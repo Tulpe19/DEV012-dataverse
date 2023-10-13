@@ -286,7 +286,7 @@ export default [
       "Comida favorita": "Helado",
       "Ocupación": "No especificada",
       "Frase celebre": "¡Vamos, Milhouse, disfruta tu vida!",
-      "Género": "Masculino"
+      "Género": "Femenino"
     },
     "extraInfo": {
       "sourceUrl": "URL de la fuente de la imagen de Luann"

@@ -22,6 +22,17 @@ body h2 {
   border-radius: 10%;
 }
 
+h3{
+  font-family: 'Simpsonfont', sans-serif;
+  -webkit-text-stroke: 0.4px #000000; /*propiedad para darle un grosor y color determinado al font*/ 
+  color: #FFDE00;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 10%;
+
+}
+
 header {
   font-family: 'Simpsonfont', sans-serif;
   display: flex; 
