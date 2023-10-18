@@ -89,10 +89,10 @@ ul{
 }
 
 li{
-  background-color:darkcyan;
+  background-color: rgba(0, 139, 139, 0.86); /* Cyan con 86% de opacidad */
   width: 15rem; 
   color: white;
-  border: black 8px solid;
+  border: black 3px solid;
   margin: 1rem;
   border-radius: 7%;
   padding-left: 1rem;
@@ -101,11 +101,10 @@ li{
 }
 
 li dd[itemprop="name"]{
-  font-size: large;
+  font-size: 1.1rem;
   padding-top: 0.5rem;
   font-family: 'Simpsonfont', sans-serif;
-  -webkit-text-stroke: 0.5px #000000;
-  color: white;
+  color: #FFDE00;
 }
 
 img{
@@ -131,6 +130,13 @@ p{
   margin-right: 0.5rem;
   font-size: large;
   color: #4e0041;
+}
+
+.cards-wrapper dd[itemprop="shortDescription"] {
+  font-family: 'Simpsonfont', sans-serif;
+  text-align: center;
+  margin-left: 0rem;
+  margin-bottom: 1rem;
 }
 
 
@@ -159,12 +165,24 @@ p{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: baseline;
+    background-color: transparent;
   }
 
   .filtros {
     display: flex;
-    align-items: center;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:flex-start;
+  }
+
+  .filtros label,
+  .filtros select {
+    flex: 1;
+    font-family: 'Simpsonfont', sans-serif;
+    border: none;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 0.5rem;
   }
 
   body h2 {
