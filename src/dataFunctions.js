@@ -9,15 +9,14 @@ export const filterData = (data, filterBy, value) => {
 
 export const sortBy = (data, sortBy, sortOrder) => {
   if (sortOrder === "asc") {
-    return data.toSorted((a, b) =>
+    return data.slice().sort((a, b) =>
       a["facts"][sortBy] > b["facts"][sortBy] ? 1 : -1
     );
   } else if (sortOrder === "desc") {
-    return data.toSorted((a, b) =>
+    return data.slice().sort((a, b) =>
       a["facts"][sortBy] < b["facts"][sortBy] ? 1 : -1
     );
   }
-  throw new Error("Elije asc o desc para ordenar");
 };
 
 export const computeStats = (data, value) => {
