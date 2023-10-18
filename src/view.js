@@ -21,7 +21,7 @@ export const renderItems = (data) => {
       <dt>Comida favorita:</dt><dd itemprop="comidaFavorita">${item.facts["Comida favorita"]}</dd>
       <dt>Ocupación:</dt><dd itemprop="ocupacion">${item.facts["Ocupación"]}</dd>
       <dt>Frase célebre:</dt><dd itemprop="frase">${item.facts["Frase celebre"]}</dd>
-      <dt>Frase género:</dt><dd itemprop="frase">${item.facts["Género"]}</dd>
+      <dt>Género:</dt><dd itemprop="género">${item.facts["Género"]}</dd>
 
     </dl>
     `;
