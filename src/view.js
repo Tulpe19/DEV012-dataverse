@@ -16,11 +16,13 @@ export const renderItems = (data) => {
     li.innerHTML += `
     <dl itemscope itemtype="">
       
-      <dt>Descripción corta:</dt><dd itemprop="shortDescription">${item.shortDescription}</dd>
+      <dd itemprop="shortDescription">${item.shortDescription}</dd>
       <dt>Hechos:</dt><dd itemprop="facts">
       <dt>Comida favorita:</dt><dd itemprop="comidaFavorita">${item.facts["Comida favorita"]}</dd>
       <dt>Ocupación:</dt><dd itemprop="ocupacion">${item.facts["Ocupación"]}</dd>
       <dt>Frase célebre:</dt><dd itemprop="frase">${item.facts["Frase celebre"]}</dd>
+      <dt>Frase género:</dt><dd itemprop="frase">${item.facts["Género"]}</dd>
+
     </dl>
     `;
 

@@ -15,24 +15,26 @@ const buttonClear = document.querySelector(
 const estadisticas = document.getElementById("estadisticas");
 estadisticas.innerHTML = "Total de personajes: " + data.length;
 
+let filteredPersonajes = data;
+
 root.appendChild(renderItems(data));
 
 nombresSelect.addEventListener("change", (event) => {
   const selectedName = event.target.value;
   const personajes = data;
 
-  const filteredPersonaje = filterData(personajes, "name", selectedName);
+  filteredPersonajes = filterData(personajes, "name", selectedName);
 
   root.innerHTML = "";
 
-  root.appendChild(renderItems(filteredPersonaje));
+  root.appendChild(renderItems(filteredPersonajes));
 });
 
 generoSelect.addEventListener("change", (event) => {
   const selectedGender = event.target.value;
   const personajes = data;
 
-  const filteredPersonajes = filterData(personajes, "Género", selectedGender);
+  filteredPersonajes = filterData(personajes, "Género", selectedGender);
   const cantidadPorGenero = computeStats(personajes, selectedGender);
 
   estadisticas.innerHTML = "Total de personajes " + selectedGender + "s: "+ cantidadPorGenero;
@@ -45,7 +47,7 @@ function ordenar() {
   const selectedOrden = ordenSelect.value;
   //console.log(selectedHecho, selectedOrden)
 
-  const personajes = data;
+  const personajes = filteredPersonajes;
 
   const orderedPersonajes = sortBy(personajes, selectedHecho, selectedOrden);
 
