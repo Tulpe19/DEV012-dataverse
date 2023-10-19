@@ -13,8 +13,11 @@ export const renderItems = (data) => {
     li.innerHTML += `<dd itemprop="name">${item.name}</dd>`;
     li.appendChild(img);
 
+    li.setAttribute("itemscope", "");
+    li.setAttribute("itemtype", "simpsons");
+
     li.innerHTML += `
-    <dl itemscope itemtype="">
+    <dl itemscope itemtype="simpsons-prueba">
       
       <dd itemprop="shortDescription">${item.shortDescription}</dd>
       <dt>Hechos:</dt><dd itemprop="facts">

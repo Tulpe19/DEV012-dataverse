@@ -1,4 +1,4 @@
-import { filterData } from "../src/dataFunctions.js";
+import { filterData, computeStats } from "../src/dataFunctions.js";
 import { sortBy } from "../src/dataFunctions.js";
 import data from "../src/data/dataset.js";
 //import { data as fakeData } from './data.js';
@@ -9,7 +9,13 @@ describe("pruebas a la funcion de filterData", () => {
     expect(filteredData[0].name).toBe("Homero Simpson");
   });
 
+  it("deberia no encontrar ningun personaje con ese nombre", () => {
+    const filteredData = filterData(data, "name", "Maggie Simpson");
+    expect(filteredData.length).toBe(0);
+  });
+
 });
+
 
 describe("prueba funcion sortBy", () => {
   it("deberia ordenar A-Z dependiendo del genero", () => {
@@ -45,4 +51,17 @@ describe("prueba funcion sortBy", () => {
     const sortedData = sortBy(data, "genero", "desc");
     expect(sortedData.length).toBe(0)
   })
+});
+
+describe('pruebas de la función computeStats', () => {
+
+  it('debería retornar 6 personajes femeninos', () => {
+    const computeStatsResult = computeStats(data, "Femenino");
+    expect(computeStatsResult).toBe(6);
+  });
+
+  it('debería retornar 18 personajes masculinos', () => {
+    const computeStatsResult = computeStats(data, "Masculino");
+    expect(computeStatsResult).toBe(18);
+  });
 });

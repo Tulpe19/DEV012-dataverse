@@ -37,7 +37,8 @@ generoSelect.addEventListener("change", (event) => {
   filteredPersonajes = filterData(personajes, "Género", selectedGender);
   const cantidadPorGenero = computeStats(personajes, selectedGender);
 
-  estadisticas.innerHTML = "Total de personajes " + selectedGender + "s: "+ cantidadPorGenero;
+  estadisticas.innerHTML =
+    "Total de personajes " + selectedGender + "s: " + cantidadPorGenero;
   root.innerHTML = "";
   root.appendChild(renderItems(filteredPersonajes));
 });
@@ -66,7 +67,7 @@ hechoSelect.addEventListener("change", () => {
 
 buttonClear.addEventListener("click", function (e) {
   e.preventDefault();
-  
+
   estadisticas.innerHTML = "Total de personajes: " + data.length;
   root.innerHTML = "";
 

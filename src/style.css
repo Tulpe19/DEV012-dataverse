@@ -15,7 +15,7 @@ body h2 {
   font-family: 'Simpsonfont', sans-serif;
   -webkit-text-stroke: 0.4px #000000; /*propiedad para darle un grosor y color determinado al font*/ 
   color: #FFDE00;
-  font-size: 2rem;
+  font-size: 2.5rem;
   display: flex;
   justify-content: center;
   border-radius: 10%;
@@ -25,7 +25,7 @@ h3{
   font-family: 'Simpsonfont', sans-serif;
   -webkit-text-stroke: 0.4px #000000; /*propiedad para darle un grosor y color determinado al font*/ 
   color: #FFDE00;
-  font-size: 2rem;
+  font-size: 2.3rem;
   display: flex;
   justify-content: center;
   border-radius: 10%;
@@ -55,9 +55,13 @@ section {
 }
 
 header label{
-  margin-left: 0.3rem;
-  margin-right: 0.3rem;
   font-size: large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 0.5rem;
+  margin-right: 0.4rem;
+  font-size: large;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 
 
@@ -162,10 +166,9 @@ p{
 
   header div {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    align-items: baseline;
-    background-color: transparent;
+    background-color: rgba(0, 139, 139, 0.86);
+    align-items: center;
   }
 
   .filtros {
@@ -194,7 +197,7 @@ p{
   }
 
   button[data-testid="button-clear"] {
-    margin-left: 5rem;
-    margin-top: 1rem;
+    max-height: 3rem;
+    
   }
 }

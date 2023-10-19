@@ -20,10 +20,14 @@ export const sortBy = (data, sortBy, sortOrder) => {
 };
 
 export const computeStats = (data, value) => {
-  const totalData = data.reduce((accumulator, item) => {
-    if (item.facts.Género === value) accumulator++;
+  const personajesWithGender = data.map((personaje) => ({
+    name: personaje.name,
+    genero: personaje.facts.Género,
+  }));
+  const totalData = personajesWithGender.reduce((accumulator, item) => {
+    if (item.genero === value) accumulator++;
     return accumulator;
   }, 0);
 
-  return totalData;
+  return Number(totalData);
 };
