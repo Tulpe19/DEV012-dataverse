@@ -65,11 +65,22 @@ hechoSelect.addEventListener("change", () => {
   ordenar();
 });
 
-buttonClear.addEventListener("click", function (e) {
-  e.preventDefault();
+function resetFiltersYSort() {
+  nombresSelect.value = "none"; 
+  generoSelect.value = "none-g";
+  hechoSelect.value = "none-facts";
+
+  ordenSelect.value = "none-order";    
+
+  filteredPersonajes = data;
 
   estadisticas.innerHTML = "Total de personajes: " + data.length;
   root.innerHTML = "";
-
   root.appendChild(renderItems(data));
+}
+
+buttonClear.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  resetFiltersYSort()
 });
