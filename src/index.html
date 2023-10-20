@@ -17,6 +17,7 @@
         <section class="filtros">
           <label for="">Busca por personaje:</label>
           <select data-testid="select-filter" name="personajes">
+            <option value="none">--seleccionar por personaje--</option>
             <option value="Apu Nahasapeemapetilon">Apu Nahasapeemapetilo</option>
             <option value="Barney Gumble"> Barney Gumble</option>
             <option value="Bart Simpson">Bart Simpson</option>
@@ -45,6 +46,7 @@
 
           <label for="">Filtra por género:</label>
           <select data-testid="select-filter" name="genero">
+            <option value="none-g">--Seleccionar género</option>
             <option value="Masculino">Masculino</option>
             <option value="Femenino">Femenino</option>
           </select>
@@ -53,6 +55,7 @@
         <section class="filtros">
           <label for="">Ordena por hechos:</label>
           <select data-testid="select-filter"  name="hechos">
+            <option value="none-facts">--Seleccionar por hechos--</option>
             <option value="Comida favorita">Comida favorita</option>
             <option value="Ocupación">Ocupación</option>
             <option value="Frase célebre">Frase célebre</option>
@@ -60,6 +63,7 @@
           
           <label for="">Tipo de ordenamiento:</label>
           <select data-testid="select-sort"  name="ordenAlfabetico">
+            <option value="none-order">--Ordenar--</option>
             <option value="asc">A - Z</option>
             <option value="desc">Z - A</option>
           </select>
