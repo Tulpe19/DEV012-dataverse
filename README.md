@@ -21,7 +21,7 @@ El objetivo principal de este proyecto es el conocimiento en la manipulación de
 
 ## 4. Cómo leer el proyecto
 
-Este proyecto sigue una estructura organizada para facilitar el desarrollo y mantenimiento del código. A continuación, se describe la estructura de los archivos y carpetas principales:
+Este proyecto sigue una estructura organizada para facilitar el desarrollo y mantenimiento del código. A continuación, se describe el contenido de los archivos principales:
 
   ### src/index.html:
   
