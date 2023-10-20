@@ -5,6 +5,7 @@ export const renderItems = (data) => {
 
   data.forEach((item) => {
     const li = document.createElement("li");
+    
 
     const img = document.createElement("img");
 
@@ -15,6 +16,8 @@ export const renderItems = (data) => {
 
     li.setAttribute("itemscope", "");
     li.setAttribute("itemtype", "simpsons");
+    li.classList.add('li-style');
+
 
     li.innerHTML += `
     <dl itemscope itemtype="simpsons-prueba">

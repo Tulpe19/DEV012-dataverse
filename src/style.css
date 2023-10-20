@@ -92,7 +92,7 @@ ul{
   
 }
 
-li{
+.li-style{
   background-color: rgba(0, 139, 139, 0.86); /* Cyan con 86% de opacidad */
   width: 15rem; 
   color: white;
@@ -128,12 +128,24 @@ button[data-testid="button-clear"] {
   margin-left: 3rem;
 }
 
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  
+}
+
 p{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin-right: 0.5rem;
   font-size: large;
   color: #4e0041;
+  font-family: 'Simpsonfont', sans-serif;
+  margin-right: 0.5rem;
+  font-size: large;
+  color: #FFDE00;
+  -webkit-text-stroke: 0.7px #000000; 
+
 }
 
 .cards-wrapper dd[itemprop="shortDescription"] {
