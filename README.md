@@ -19,22 +19,22 @@ El objetivo principal de este proyecto es el conocimiento en la manipulación de
 
 Comenzamos a pensar el diseño y realizamos los bocetos de baja fidelidad, tanto de desktop como de mobile.
 
-![imagen de baja fidelidad](Dataverse-Desktop1(1).png)
-![imagen de baja fidelidad](Mobile(1).png)
+![imagen de desktop de baja fidelidad](<Dataverse-Desktop1 (1).png>)
+![imagen de mobile baja fidelidad](<Mobile (1).png>)
 
 
 Usamos chatGPT para generar un set de datos en un archivo javascript.
 
-![imagen de chatGPT ](image(1).png)
-![imagen de chatGPT ](image(2).png)
-![imagen de chatGPT ](image(3).png)
-![imagen de chatGPT ](image(4).png)
-![imagen de chatGPT ](image(5).png)
-![imagen de chatGPT ](image(6).png)
-![imagen de chatGPT ](image(7).png)
-![imagen de chatGPT ](image(8).png)
-![imagen de chatGPT ](image(9).png)
-![imagen de chatGPT ](image(10).png)
+![imagen de chatGPT ](<image (1).png>)
+![imagen de chatGPT ](<image (2).png>)
+![imagen de chatGPT ](<image (3).png>)
+![imagen de chatGPT ](<image (4).png>)
+![imagen de chatGPT ](<image (5).png>)
+![imagen de chatGPT ](<image (6).png>)
+![imagen de chatGPT ](<image (7).png>)
+![imagen de chatGPT ](<image (8).png>)
+![imagen de chatGPT ](<image (9).png>)
+![imagen de chatGPT ](<image (10).png>)
 
 Tuvimos en cuenta las siguientes historias de usuario.
 
@@ -54,7 +54,7 @@ Estos son los diseños de alta fidelidad, tanto de la versión desktop como de l
 
 Así se puede visualizar el sitio web actualmente:
 
-![imagen del sitio](Screenshot2023-10-22184011.png)
+![imagen del sitio](<Screenshot 2023-10-22 184011-1.png>)
 
 ## 3. Funcionalidades
 
