@@ -7,7 +7,6 @@ import data from "./data/dataset.js";
 const root = document.getElementById("card-container");
 const nombresSelect = document.querySelector('select[name="personajes"]');
 const generoSelect = document.querySelector('select[name="genero"]');
-const selectName = document.querySelector('name');
 const hechoSelect = document.querySelector('select[name="hechos"]');
 const ordenSelect = document.querySelector('select[name="ordenAlfabetico"]');
 const buttonClear = document.querySelector(
@@ -53,14 +52,10 @@ function ordenar() {
   const personajes = filteredPersonajes;
 
   const orderedPersonajes = sortBy(personajes, selectedHecho, selectedOrden);
-  const orderedGenero = sortBy(personajes, selectName, selectedOrden);
-
-
+  
   root.innerHTML = "";
 
   root.appendChild(renderItems(orderedPersonajes));
-  root.appendChild(renderItems(orderedGenero));
-
 }
 
 ordenSelect.addEventListener("change", () => {
