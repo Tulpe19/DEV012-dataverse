@@ -163,9 +163,9 @@ p{
   }
 
   .header-img {
-    width: 17rem;
-    height: 12rem;
-    margin-left: 6rem;
+    width: 15rem;
+    height: 10rem;
+    margin-left: 1rem;
   }
 
   body h1 {
@@ -202,6 +202,10 @@ p{
 
   body h2 {
     margin-left: 3rem;
+  }
+
+  h3{
+    font-size: 2rem;
   }
 
   ul {
