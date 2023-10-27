@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(nubesSimpsons.jpg);
+}
+
+body h1 {
+  font-family: 'Simpsonfont', sans-serif;
+  -webkit-text-stroke: 0.4px #000000; /*propiedad para darle un grosor y color determinado al font*/ 
+  color: #FFDE00;
+  font-size: 5rem;
+}
+
+body h2 {
+  font-family: 'Simpsonfont', sans-serif;
+  -webkit-text-stroke: 0.4px #000000; /*propiedad para darle un grosor y color determinado al font*/ 
+  color: #FFDE00;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 10%;
+}
+
+h3{
+  font-family: 'Simpsonfont', sans-serif;
+  -webkit-text-stroke: 0.4px #000000; /*propiedad para darle un grosor y color determinado al font*/ 
+  color: #FFDE00;
+  font-size: 2.3rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 10%;
+
+}
+
+header {
+  font-family: 'Simpsonfont', sans-serif;
+  display: flex; 
+  flex-direction: column;
+  background-size: cover;
+  background-position: left bottom;
+}
+
+section {
+  display: flex; 
+  flex-direction: row;
+}
+
+.cards-wrapper {
+  justify-content: center;
+}
+
+.header-img{
+  width: 30rem;
+  height: 20rem;
+}
+
+header label{
+  font-size: large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 0.5rem;
+  margin-right: 0.4rem;
+  font-size: large;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+
+header select, option {
+  font-family: 'Simpsonfont', sans-serif;
+  background-color: #FFDE00;
+  border-radius: 15%;
+  border: black 2px solid;
+  font-size: medium;
+}
+
+body div {
+  display: flex;
+  justify-content: center;
+  background-color:darkcyan;
+  padding: 5px;
+}
+
+.root {
+  display: flex;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.li-style{
+  background-color: rgba(0, 139, 139, 0.86); /* Cyan con 86% de opacidad */
+  width: 15rem; 
+  color: white;
+  border: black 3px solid;
+  margin: 1rem;
+  border-radius: 7%;
+  padding-left: 1rem;
+  font-size: small;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li dd[itemprop="name"]{
+  font-size: 1.1rem;
+  padding-top: 0.5rem;
+  font-family: 'Simpsonfont', sans-serif;
+  color: #FFDE00;
+}
+
+img{
+  height: 10rem;
+  width: 5rem;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  
+}
+
+button[data-testid="button-clear"] {
+  font-family: 'Simpsonfont', sans-serif; 
+  font-size: medium;
+  background-color: #FFDE00;
+  border-radius: 15%;
+  border: black 2px solid;
+  margin-left: 3rem;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+p{
+  display: flex;
+  justify-content: center;
+  margin-right: 0.5rem;
+  font-size: large;
+  color: #4e0041;
+  font-family: 'Simpsonfont', sans-serif;
+  margin-right: 0.5rem;
+  font-size: large;
+  color: #FFDE00;
+  -webkit-text-stroke: 0.7px #000000; 
+
+}
+
+.cards-wrapper dd[itemprop="shortDescription"] {
+  font-family: 'Simpsonfont', sans-serif;
+  text-align: center;
+  margin-left: 0rem;
+  margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 720px) {
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-img {
+    width: 15rem;
+    height: 10rem;
+    margin-left: 1rem;
+  }
+
+  body h1 {
+    margin: 1rem;
+    font-size: 4rem;
+    text-align: center; /* Añadir alinear el texto al centro */
+    margin: 0; /* Añadir margen 0 para centrar horizontalmente */
+    padding: 0; /* Añadir relleno 0 para centrar horizontalmente */
+  }
+
+  header div {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 139, 139, 0.86);
+    align-items: center;
+  }
+
+  .filtros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:flex-start;
+  }
+
+  .filtros label,
+  .filtros select {
+    flex: 1;
+    font-family: 'Simpsonfont', sans-serif;
+    border: none;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 0.5rem;
+  }
+
+  body h2 {
+    margin-left: 3rem;
+  }
+
+  h3{
+    font-size: 2rem;
+  }
+
+  ul {
+    display: grid;
+  }
+
+  button[data-testid="button-clear"] {
+    max-height: 3rem;
+    
+  }
+}
